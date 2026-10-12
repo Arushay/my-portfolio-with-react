@@ -22,7 +22,7 @@ function Contact() {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/arosha-ayman"
+          href="https://www.linkedin.com/in/arosha-a-9b679a1bb"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-blue-400 transition"
