@@ -1,34 +1,36 @@
 function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-slate-800/50">
-      <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8 text-center">
-          About <span className="text-blue-400">Me</span>
-        </h2>
+    <section id="about" className="py-32 px-6 md:px-20 max-w-6xl mx-auto border-t border-charcoal-light">
+      <h2 className="text-xs tracking-[0.2em] uppercase text-olive mb-16 font-medium">
+        02 / About Me
+      </h2>
 
-        <div className="space-y-4 text-slate-300 leading-relaxed">
+      <div className="grid md:grid-cols-2 gap-16">
+        {/* Left side: Big statement */}
+        <div>
+          <h3 className="text-4xl md:text-5xl font-serif leading-tight text-offwhite mb-6">
+            From Pakistan to Rotterdam. <br />
+            <span className="italic text-taupe-text">Building a new path.</span>
+          </h3>
+        </div>
+
+        {/* Right side: The story */}
+        <div className="space-y-6 text-taupe-text font-light leading-relaxed">
           <p>
-            I'm a self-taught developer based in Rotterdam, Netherlands. I
-            started learning to code because I wanted to build things that
-            solve real problems — and that's still what drives me.
+            I'm a self-taught developer who found a passion for back-end logic and clean architecture. 
+            My journey didn't start in a traditional classroom—it started with curiosity, a laptop, 
+            and a determination to build things that work.
           </p>
           <p>
-            My focus is on back-end development: building REST APIs,
-            working with databases, and writing clean, reliable server-side
-            code. I work mainly with <span className="text-blue-400">Node.js</span>,{" "}
-            <span className="text-blue-400">Express</span>, and{" "}
-            <span className="text-blue-400">PostgreSQL</span>, and I'm
-            comfortable with the front-end too (React, Tailwind).
+            Today, I focus on building full-stack applications using <span className="text-offwhite font-medium">Node.js</span>, 
+            <span className="text-offwhite font-medium"> Express</span>, 
+            <span className="text-offwhite font-medium"> PostgreSQL</span>, and 
+            <span className="text-offwhite font-medium"> React</span>. I enjoy the challenge of 
+            connecting complex systems and making them feel effortless to the user.
           </p>
           <p>
-            Right now I'm building{" "}
-            <span className="text-blue-400">Paw-some Learning Missions</span>{" "}
-            — a full-stack educational game for toddlers — to sharpen my
-            skills and create something useful for my own daughter.
-          </p>
-          <p>
-            I'm currently looking for junior back-end or full-stack
-            opportunities where I can grow and contribute to real projects.
+            When I'm not writing code, I'm raising two wonderful kids, studying Dutch, 
+            and finding ways to solve real-world problems through technology.
           </p>
         </div>
       </div>
