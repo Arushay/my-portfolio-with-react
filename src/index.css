@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-taupe-light: #f4f1ea;  /* Background */
+  --color-taupe-dark: #d6d0c4;   /* Borders/Lines */
+  --color-taupe-text: #5c554b;   /* Secondary text */
+  --color-olive: #4a5d23;        /* Primary accent */
+  --color-olive-hover: #38481a;  
+  --color-charcoal: #1a1a1a;     /* Main text */
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  background-color: var(--color-taupe-light);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth; /* This gives you that smooth transition effect */
+}

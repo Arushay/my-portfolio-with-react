@@ -4,7 +4,7 @@ const projects = [
     description:
       "A full-stack educational game for toddlers with daily missions, drag-and-drop puzzles, and a reward system. Built with React, Tailwind, Express, and PostgreSQL.",
     tech: ["React", "Tailwind", "Express", "PostgreSQL", "JWT"],
-    github: "https://github.com/Arushay",
+    github: "https://github.com/Arushay/paw-some-learning",
     live: null,
   },
   {
@@ -12,8 +12,8 @@ const projects = [
     description:
       "A full-stack task manager with user authentication, CRUD operations, due dates, priorities, categories, and search/filter functionality.",
     tech: ["Node.js", "Express", "PostgreSQL", "JWT", "bcrypt"],
-    github: "https://github.com/Arushay",
-    live: null,
+    github: "https://github.com/Arushay/todo-api",
+        live: "https://paw-some-learning.vercel.app", 
   },
   {
     title: "Focus Timer",
