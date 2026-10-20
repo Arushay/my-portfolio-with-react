@@ -5,7 +5,7 @@ function Hero() {
         Rotterdam, Netherlands → Back-end Developer
       </p>
       
-      <h1 className="text-5xl md:text-7xl font-serif leading-[1.1] mb-8 text-charcoal">
+      <h1 className="text-5xl md:text-7xl font-serif leading-[1.1] mb-8 text-offwhite">
         Building systems that <br />
         <span className="italic text-taupe-text">work reliably behind the scenes.</span>
       </h1>
@@ -19,7 +19,7 @@ function Hero() {
         <a href="#projects" className="border-b border-olive text-olive pb-1 hover:text-olive-hover hover:border-olive-hover transition-colors duration-300">
           View Projects
         </a>
-        <a href="#contact" className="border-b border-taupe-dark text-taupe-text pb-1 hover:text-charcoal hover:border-charcoal transition-colors duration-300">
+        <a href="#contact" className="border-b border-charcoal-light text-taupe-text pb-1 hover:text-offwhite hover:border-offwhite transition-colors duration-300">
           Get in Touch
         </a>
       </div>
