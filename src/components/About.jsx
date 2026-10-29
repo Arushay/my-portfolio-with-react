@@ -28,10 +28,7 @@ function About() {
             <span className="text-offwhite font-medium"> React</span>. I enjoy the challenge of 
             connecting complex systems and making them feel effortless to the user.
           </p>
-          <p>
-            When I'm not writing code, I'm raising two wonderful kids, studying Dutch, 
-            and finding ways to solve real-world problems through technology.
-          </p>
+         
         </div>
       </div>
     </section>
