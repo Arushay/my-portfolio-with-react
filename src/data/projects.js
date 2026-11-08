@@ -5,7 +5,7 @@ const projects = [
       "A production-ready TypeScript backend that handles invoice uploads, extracts data (mocked AI), and saves it to PostgreSQL. Features a mock sync to Exact Online via a lightweight HTML dashboard.",
     tech: ["TypeScript", "Node.js", "Express", "PostgreSQL", "Multer"],
     github: "https://github.com/Arushay/invoice-automator-api",
-    live: null, // We don't have a live frontend deployed for this yet
+    live: "https://invoice-automator-api.onrender.com",
   },
   {
     title: "Paw-some Learning Missions",
