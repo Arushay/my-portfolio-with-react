@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Invoice Automator API",
+    description:
+      "A production-ready TypeScript backend that handles invoice uploads, extracts data (mocked AI), and saves it to PostgreSQL. Features a mock sync to Exact Online via a lightweight HTML dashboard.",
+    tech: ["TypeScript", "Node.js", "Express", "PostgreSQL", "Multer"],
+    github: "https://github.com/Arushay/invoice-automator-api",
+    live: null, // We don't have a live frontend deployed for this yet
+  },
+  {
     title: "Paw-some Learning Missions",
     description:
       "A full-stack educational game for toddlers with daily missions, drag-and-drop puzzles, and a reward system. Built with React, Tailwind, Express, and PostgreSQL.",
@@ -13,7 +21,7 @@ const projects = [
       "A full-stack task manager with user authentication, CRUD operations, due dates, priorities, categories, and search/filter functionality.",
     tech: ["Node.js", "Express", "PostgreSQL", "JWT", "bcrypt"],
     github: "https://github.com/Arushay/todo-api",
-        live: null,
+    live: null,
   },
   {
     title: "Focus Timer",
@@ -32,5 +40,3 @@ const projects = [
     live: null,
   },
 ];
-
-export default projects;
