@@ -40,4 +40,5 @@ const projects = [
     live: null,
   },
 ];
+
 export default projects;
